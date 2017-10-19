@@ -713,7 +713,7 @@ ul.check-list li:before {
 }
 
 a.active {
-  color: #ffd217;
+  color: #ffd217 !important;
 }
 
 .site-footer a {
@@ -921,7 +921,7 @@ a.couleurkaizenconseil1:hover {
 .main-nav ul li a:hover,
 .main-nav ul li.current-menu-item>a,
 .main-nav ul li a.active {
-  color: #ffd217
+  color: #ffd217 !important
 }
 
 .main-nav ul li li {
@@ -1304,11 +1304,12 @@ only screen and (min-resolution:2dppx) {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-color: white;
   z-index: 2
 }
 
 .section-row.bg-transparent {
-  background-color: transparent!important
+  background-color: white
 }
 
 .section-row.shadow-bg {
@@ -4540,6 +4541,7 @@ only screen and (min-resolution:2dppx) {
     padding: 100px 0;
     margin-bottom: -80px;
     margin-top: -50px;
+    background-color: white;
   }
   .section-row.quarter-padding-top {
     padding-top: 35px
