@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
 
 // Define fonts for body and headers
-$body-font: "Open Sans", "Helvetica", "sans-serif";
-$headers-font: "Raleway", "Helvetica", "sans-serif";
+$body-font: "Raleway", "Helvetica", "sans-serif";
+$headers-font: "Novecento Sans Wide", "Raleway", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +14,18 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+@font-face {
+  font-family: 'Novecento Sans Wide';
+  src: url('config/synthview_-_novecento_sans_wide_bold-webfont.eot');
+  src: url('config/synthview_-_novecento_sans_wide_bold-webfont.eot?#iefix') format('embedded-opentype'), url('config/synthview_-_novecento_sans_wide_bold-webfont.woff') format('woff'), url('config/synthview_-_novecento_sans_wide_bold-webfont.ttf') format('truetype'), url('config/synthview_-_novecento_sans_wide_bold-webfont.svg#novecento_sans_wide_bookbold') format('svg');
+  font-weight: 700;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Novecento Sans Wide';
+  src: url('config/synthview_-_novecento_sans_wide_demibold-webfont.eot');
+  src: url('config/synthview_-_novecento_sans_wide_demibold-webfont.eot?#iefix') format('embedded-opentype'), url('config/synthview_-_novecento_sans_wide_demibold-webfont.woff') format('woff'), url('config/synthview_-_novecento_sans_wide_demibold-webfont.ttf') format('truetype'), url('config/synthview_-_novecento_sans_wide_demibold-webfont.svg#novecento_sans_widedemibold') format('svg');
+  font-weight: 600;
+  font-style: normal
+}
